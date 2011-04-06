@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jardesc>
+    <jar path="C:/Users/Olof Larsson/Desktop/devserver/plugins/AncientGates.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/AncientGates/localexport.jardesc" exportErrors="false" exportWarnings="true" includeDirectoryEntries="false" overwrite="true" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" manifestLocation="/Vampire/MANIFEST.MF" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <file path="/AncientGates/README.md"/>
+        <file path="/AncientGates/plugin.yml"/>
+        <javaElement handleIdentifier="=AncientGates/src"/>
+        <file path="/AncientGates/LGPL.txt"/>
+        <file path="/AncientGates/gson-license.txt"/>
+        <file path="/AncientGates/LICENCE.txt"/>
+    </selectedElements>
+</jardesc>
