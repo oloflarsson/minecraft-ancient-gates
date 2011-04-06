@@ -4,21 +4,21 @@ AncientGates - Easily create portals with custom design
 
 With this plugin the server operators (OPs) can create gates that will teleport anyone who enter to a location specific to that gate. The hightlights are: <b>It is so darn easy to use!</b> :D and <b>The gates can look any way you like</b> \o/
 
-Try the ingame command: /gate<br>
+Try the ingame command: <b>/gate</b><br>
 Thought first you should take a look at the demonstration I and karibu6 created:<br>
 <b>[http://www.youtube.com/watch?v=L4hyqTpeEaA](http://www.youtube.com/watch?v=L4hyqTpeEaA)</b>
 
 Commands
 ---------
 
-* /gate help,h,? *[page] Display a help page
-* /gate create,new [id] Create a gate
-* /gate delete,del,remove [id] Delete a gate
-* /gate setfrom [id] Set "from" to your location.
-* /gate setto [id] Set "to" to your location.
-* /gate open [id] Open that gate
-* /gate close [id] Close that gate
-* /gate list,ls Display a list of the gates
+* <b>/gate help,h,? *[page]</b> Display a help page
+* <b>/gate create,new [id]</b> Create a gate
+* <b>/gate delete,del,remove [id]</b> Delete a gate
+* <b>/gate setfrom [id]</b> Set "from" to your location.
+* <b>/gate setto [id]</b> Set "to" to your location.
+* <b>/gate open [id]</b> Open that gate
+* <b>/gate close [id]</b> Close that gate
+* <b>/gate list,ls</b> Display a list of the gates
 
 FAQ
 ---------
