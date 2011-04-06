@@ -8,11 +8,12 @@ for more info.
 
 Usage
 ---------
-<b>Read the full userguide here: [http://mcteam.org/ancientgates](http://mcteam.org/ancientgates)</b>
+<b>Read the full userguide here: [http://mcteam.org/ancientgates](http://mcteam.org/ancientgates)</b><br>
+TODO IT IS NOT THERE YET :)
 
 Installing
 ----------
-1. Download the latest release: [https://github.com/oloflarsson/AncientGates/downloads](https://github.com/oloflarsson/AncientGates/downloads)<br>
+1. Download the latest release: [https://github.com/oloflarsson/minecraft-ancient-gates/downloads](https://github.com/oloflarsson/minecraft-ancient-gates/downloads)<br>
 1. Put AncientGates.jar in the plugins folder.
 
 License
