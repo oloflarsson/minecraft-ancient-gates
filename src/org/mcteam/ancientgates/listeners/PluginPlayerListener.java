@@ -7,6 +7,7 @@ import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.World;
 import org.bukkit.block.Block;
+import org.bukkit.block.BlockFace;
 import org.bukkit.event.player.PlayerListener;
 import org.bukkit.event.player.PlayerMoveEvent;
 import org.mcteam.ancientgates.Conf;
@@ -22,11 +23,14 @@ public class PluginPlayerListener extends PlayerListener {
 			return;
 		}
 		
-		if (event.getTo().getBlock().getType() != Material.PORTAL) {
+		Block blockTo = event.getTo().getBlock();
+		Block blockToUp = blockTo.getFace(BlockFace.UP);
+		
+		if (blockTo.getType() != Material.PORTAL && blockToUp.getType() != Material.PORTAL) {
 			return;
 		}
 		
-		// Ok so a player walks into a partal block
+		// Ok so a player walks into a portal block
 		// Find the nearest gate!
 		Gate nearestGate = null;
 		Location playerLocation = event.getPlayer().getLocation();

@@ -30,6 +30,7 @@ public class CommandList extends BaseCommand {
 			return;
 		}
 		
+		sendMessage("There are currently "+ids.size()+" gates on this server: ");
 		sendMessage(TextUtil.implode(ids, Conf.colorSystem+", "));
 	}
 	
